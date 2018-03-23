@@ -119,6 +119,7 @@ def cal_curve(event):
 
 		#calculate ci02
 		# cal_ci02(lamda,bezeir_ci1,bezeir_ci02):
+		#use Cyclic tri - diagonal equations to calculate new Ci point
 		for i in range(point_num):
 			ci1 = bezeir_ci1[i]
 			c_i1_1 = bezeir_ci1[(i + 1) % point_num]
