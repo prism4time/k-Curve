@@ -11,6 +11,7 @@ _some python libs used in this implementation_
 - [scipy](https://www.scipy.org/docs.html)
 
 ## Deficiency
+- Uses a non-optimized method to calculate C_i,1, should had used Cyclic tri - diagonal equations to calculate instead, it can both accelarating convergence and making the results more accurate, due to my poor code, it is rather hard for me to make what I had written clear ```T_T```, and I do not plan to spend too much time to fix it now...
 - As a program which should focus on performance I really do not think my code is good enough, maybe it need some optimization to make it fast,maybe some CPython extensions...
 - Do not implement the condition where the curve does not close.
 

@@ -109,7 +109,7 @@ def cal_curve(event):
             point_ci1 = cal_new_ci1(pi,t,ci0,ci2)
             bezeir_ci1[i] = point_ci1
 
-        #calculate lamda
+        #calculate lambda
         for i in range(point_num):
             ci0 = bezeir_ci02[(i + point_num - 1) % point_num]
             ci1 = bezeir_ci1[i]
@@ -127,13 +127,6 @@ def cal_curve(event):
             point_ci02 =  cal_ci02(tmp_lamda,ci1,c_i1_1)
             bezeir_ci02[i] = point_ci02
 
-#   for i in range(point_num):
-#       ci2 = bezeir_ci02[i]
-#       ci0 = bezeir_ci02[(i + point_num - 1) % point_num]
-#       pi = input_points[i]
-#       t = cal_root_t(ci2,ci0,pi)
-#       point_ci1 = cal_new_ci1(pi,t,ci0,ci2)
-#       bezeir_ci1[i] = point_ci1
 
     for i in range(point_num):
         points = []
