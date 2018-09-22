@@ -10,7 +10,7 @@ _some python libs used in this implementation_
 - [numpy](https://docs.scipy.org/doc/)
 - [scipy](https://www.scipy.org/docs.html)
 
-## TODO
-_hope I can change it better in the coming months
-- [ ]still need some optimization to make it fast,maybe some CPython extensions.
-- [ ]haven't implemented cases where the ponits don't connect at last.
+## Deficiency
+- As a program which should focus on performance I really do not think my code is good enough, maybe it need some optimization to make it fast,maybe some CPython extensions...
+- Do not implement the condition where the curve does not close.
+
